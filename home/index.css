@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar-p {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  background-color: #141e4c;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 80px;
+  z-index: 99999999999;
+}
+
+
+.cine-suntem h2 {
+  padding-top: 30px;
+  color: #101d42;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.bottom {
+  background-color: #141e4c;
+  margin-top: 150px;
+  height: 80px;
+}
+.bottom p {
+  padding: 3vh;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+.cine-suntem p {
+  text-align: center;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-bottom: 1.75rem;
+}
+
+.container-grid {
+  align-items: center;
+  justify-content: center;
+  background-color: #dfedf5;
+  margin-bottom: 70px;
+}
+
+.container-imagini {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  width: 70%;
+  gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.imagine {
+  flex-basis: calc(30% - 10px);
+  margin-bottom: 10px;
+}
+
+.imagine img {
+  width: 100%;
+  height: auto;
+}
+
+.partners h2 {
+  padding-top: var(--spacing-large);
+  text-align: center;
+}
+
+.partners h2,
+.partners .partners-container {
+  margin-bottom: 1.75rem;
+}
+
+.partners .partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.partners .image-wrapper {
+  width: 100px;
+
+  margin-right: var(--spacing-xl);
+  margin-left: var(--spacing-xl);
+  margin-bottom: var(--spacing-medium);
+}
+
+.partners img {
+  width: 100%;
+  height: auto;
+
+  /* Facem pozele gri. */
+  filter: grayscale(100%);
+}
+
+.partners img:hover {
+  /* La hover, coloram din nou pozele. */
+  filter: grayscale(0);
+}
+
+@media (max-width: 768px) {
+  .partners .partners-container {
+    margin: 0 var(--spacing-small);
+  }
+}
+
+@media (max-width: 576px) {
+  .partners .image-wrapper {
+    margin-right: var(--spacing-medium);
+    margin-left: var(--spacing-medium);
+  }
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #101d42;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.background {
+  background-color: #141e4c;
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  color: #f9f9f9;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.bine-ai-venit {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.subtitlu {
+  color: #f9f9f9;
+  font-size: 30px;
+  margin: 7px;
+}
+
+span {
+  color: orange;
+}
+
+.imagini {
+  width: auto;
+  margin-left: var(--spacing-medium);
+  position: relative;
+  top: var(--spacing-tiny);
+  height: 24px;
+  width: auto;
+}
+
+.rand {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.curs {
+  color: #f9f9f9;
+  font-size: 30px;
+  margin: 7px;
+}
+
+.buton {
+  color: white;
+  background-color: #2bb686;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #2bb686;
+  border-radius: 5px;
+  width: 260px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.buton:hover {
+  background-color: #141e4c;
+  cursor: pointer;
+}
+.buton:active {
+  background-color: #141e4c;
+}
+.nav-container-option {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 100%;
+  margin-left: 100px;
+}
+
+.welcome {
+  font-size: 8px;
+  margin: 100px;
+}
+
+.subtitlu {
+  font-size: 20px;
+}
+
+.curs {
+  font-size: 20px;
+}
+
+.imagini-img {
+  overflow-clip-margin: content-box;
+  /* overflow: clip; */
+  width: auto;
+  height: 24px;
+  margin-left: 8px;
+}
+
+.rand {
+  display: flex;
+  align-items: center;
+}
+
+.cursuri-container {
+  /* max-width: 1200px;
+      min-width: 320px; */
+  margin: auto;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-container {
+  background-color: #141e4c;
+}
+
+.nume-curs {
+  color: #141e4c;
+}
+
+.container-celula-1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+}
+
+.container-celula-2 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.container-celula-3 {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+
+.container-celula-4 {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+}
+
+.container-celula-5 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.container-celula-6 {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 2;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #101d42;
+}
+.col-4 {
+  margin-left: 350px;
+  border: solid 1px;
+}
+.icon {
+  color: black;
+}
+.spatiu {
+  color: black;
+  margin-left: 5px;
+}
+.Online {
+  color: black;
+}
+.bine-ai-venit {
+  color: white;
+}
+.place-color {
+  background-color: #fbb44c;
+  width: auto;
+  margin-left: 10px;
+}
+.aliniere {
+  display: flex;
+  align-items: center;
+}
+.bar {
+  height: 0.25rem;
+  background-color: #2bb686;
+  border-radius: 10px;
+}
+.container-imagini {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.imagine {
+  width: calc(33.33% - 10px);
+  height: auto;
+  margin: 5px;
+}
+
+.partners-container{
+  max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: calc (20% - 20px);
+    margin: 40px;
+    gap: 40px;
+    
+}
