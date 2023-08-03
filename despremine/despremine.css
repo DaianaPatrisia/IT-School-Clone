@@ -89,3 +89,89 @@
   footer{
     position: fixed;
   }
+
+  .container-main{
+    background-color: white;
+  }
+
+  .despremine-info{
+    background-color: white;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .despremine-wrap{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.eu{
+  border: 1px solid #ddd;
+  border-radius:5px;
+  margin-top:5rem;
+  min-height: 350px;
+  width: 93%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-despre-mine{
+  display: flex;
+  margin: unset;
+}
+
+@media (max-width:992px){
+  .card-despre-mine{
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+.image-despre-mine{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.image-eu{
+  width: 100%;
+  height:auto;
+  filter: grayscale();
+}
+
+.card-tittle{
+  text-align: center;
+}
+
+.card-despre-mine h3{
+  width: 100%;
+  font-size:1rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgba(20, 30, 76, 0.9);
+  border-radius: 5px;
+  padding: 0.25rem;
+  margin-bottom:1rem;
+  margin-top: -6px;
+  margin-left: auto;
+  z-index: 1;
+  color:#fbb44c;
+}
+
+.card-text{
+  padding: 3rem;
+  margin: auto;
+  font-size: 30px;
+}
+@media (max-width:768px){
+  .card-text{
+      font-size: 2rem;
+  }
+}
