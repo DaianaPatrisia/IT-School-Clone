@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
@@ -30,7 +30,6 @@ body {
   height: 80px;
   z-index: 99999999999;
 }
-
 
 .cine-suntem h2 {
   padding-top: 30px;
@@ -384,17 +383,16 @@ span {
   margin: 5px;
 }
 
-.partners-container{
+.partners-container {
   max-width: 900px;
-    min-width: 320px;
-    margin: auto;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: calc (20% - 20px);
-    margin: 40px;
-    gap: 40px;
-    
+  min-width: 320px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: calc (20% - 20px);
+  margin: 40px;
+  gap: 40px;
 }

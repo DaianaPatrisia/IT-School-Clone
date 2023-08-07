@@ -8,19 +8,7 @@ body {
   font-size: 0.75rem;
 }
 
-.navbar {
-  /* display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  align-items: center;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0; */
-
+.navbar{
   background-color: #141e4c;
   display: flex;
   position: fixed !important;
@@ -46,7 +34,6 @@ li {
   margin-right: 10px;
   font-size: 0.75rem;
   text-transform: uppercase;
-  /* margin-block-start: 1em; */
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 10px;
@@ -111,7 +98,6 @@ nav a {
 
 .nav-logo {
   margin-left: 100px;
-  /* height: fit-content; */
   width: auto;
   height: 60px;
 }
